@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_picture">
+
+    <TextView
+        android:id="@+id/my_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginBottom="15.0dip"
+        android:background="@color/titleBarColor"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/Background_brown"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="250dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            app:hintTextAppearance="@style/CustomTextAppearance">
+
+            <EditText
+                android:id="@+id/Email_id"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:background="@color/light_brown"
+                android:drawableLeft="@drawable/ic_person_pin_black_24dp"
+                android:drawablePadding="-45dp"
+                android:gravity="center"
+                android:hint="@string/email"
+                android:inputType="text"
+                android:text="mohamedelnagm211@gmail.com"
+                android:textColor="@color/white"
+                android:textSize="26.0sp"
+                android:textStyle="bold" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            app:hintTextAppearance="@style/CustomTextAppearance"
+            app:passwordToggleDrawable="@drawable/password_visibility"
+            app:passwordToggleTint="?colorControlNormal">
+
+            <EditText
+                android:id="@+id/Password_id"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginBottom="15.0dip"
+                android:background="@color/light_brown"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:text="123456789"
+                android:textColor="@color/white"
+                android:textSize="26.0sp"
+                android:textStyle="bold" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="130.0dip"
+                android:layout_height="70.0dip"
+                android:background="@drawable/button_radius"
+                android:onClick="onLogin"
+                android:text="@string/Login"
+                android:textColor="@color/Background_brown"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/forget_pass"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:linksClickable="true"
+                android:onClick="OncForgit"
+                android:padding="20dp"
+                android:text="Forget Password?"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

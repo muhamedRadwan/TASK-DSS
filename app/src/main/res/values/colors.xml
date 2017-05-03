@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="titleBarColor">#FFCBA87F</color>
+    <color name="white">#fff</color>
+    <color name="red">#f00</color>
+    <color name="black">#000</color>
+    <color name="Background_brown">#FF632D02</color>
+    <color name="light_brown">#da6f4931</color>
+    <drawable name="Background_brown">#FF632D02</drawable>
+    <drawable name="light_brown">#FFCBA87F</drawable>
+</resources>

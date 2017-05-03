@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/courseName"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/button_radius"
+            android:padding="5dp"
+            android:text="Second Layout"
+            android:textAlignment="center"
+            android:textSize="30.0dip"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/changeCourseLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+
+            android:theme="@style/TextLabel"
+            app:hintTextAppearance="@style/CustomTextAppearance">
+
+            <EditText
+                android:id="@+id/changeCourse"
+                android:layout_width="250dp"
+                android:layout_height="50.0dip"
+                android:layout_marginLeft="50dp"
+                android:background="@color/light_brown"
+                android:gravity="center"
+                android:hint="@string/change"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textSize="26.0sp"
+                android:textStyle="bold" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="75dp"
+            android:width="40dp"
+            android:background="@drawable/button_shap"
+            android:text="@string/save"
+            android:textColor="@color/Background_brown"
+            android:textSize="30.0dip"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</RelativeLayout>

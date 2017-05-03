@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_signup"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/my_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/titleBarColor"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/Background_brown"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <com.friendsteam_cafehak.app.RoundImage
+                android:id="@+id/ProfileImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/com_facebook_profile_picture_blank_portrait" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextLayoutEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel"
+                app:errorTextAppearance="@style/custom_textColor_style"
+                app:hintTextAppearance="@style/CustomTextAppearance">
+
+                <EditText
+                    android:id="@+id/Email_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginBottom="8.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:background="@color/light_brown"
+                    android:gravity="center"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                    android:textColorHint="@color/titleBarColor"
+                    android:textSize="26.0sp"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextLayoutFname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel"
+                app:hintTextAppearance="@style/CustomTextAppearance">
+
+                <EditText
+                    android:id="@+id/First_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginBottom="8.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:background="@color/light_brown"
+                    android:gravity="center"
+                    android:hint="@string/first_name"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                    android:textColorHint="@color/titleBarColor"
+                    android:textSize="26.0sp"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextLayoutLname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel"
+                app:hintTextAppearance="@style/CustomTextAppearance">
+
+                <EditText
+                    android:id="@+id/Last_Name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginBottom="8.0dip"
+                    android:layout_marginTop="8.0dip"
+                    android:background="@color/light_brown"
+                    android:gravity="center"
+                    android:hint="@string/last_name"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                    android:textColorHint="@color/titleBarColor"
+                    android:textSize="26.0sp"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextLayoutSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel"
+                app:hintTextAppearance="@style/CustomTextAppearance">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginBottom="15.0dip"
+                    android:layout_marginTop="7.0dip"
+                    android:background="@color/light_brown"
+                    android:gravity="center"
+                    android:popupBackground="@color/light_brown"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                    android:textSize="26.0sp"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextLayoutPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel"
+                app:hintTextAppearance="@style/CustomTextAppearance"
+                app:passwordToggleDrawable="@drawable/password_visibility"
+                app:passwordToggleTint="?colorControlNormal">
+
+                >
+
+                <EditText
+                    android:id="@id/Password_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginBottom="15.0dip"
+                    android:layout_marginTop="7.0dip"
+                    android:background="@color/light_brown"
+                    android:gravity="center"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                    android:textColorHint="@color/titleBarColor"
+                    android:textSize="26.0sp"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextLayoutCPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextLabel"
+                app:hintTextAppearance="@style/CustomTextAppearance"
+                app:passwordToggleDrawable="@drawable/password_visibility"
+                app:passwordToggleTint="?colorControlNormal">
+
+                <EditText
+                    android:id="@+id/Password_confirm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_marginBottom="15.0dip"
+                    android:layout_marginTop="7.0dip"
+                    android:background="@color/light_brown"
+                    android:gravity="center"
+                    android:hint="@string/password_confirm"
+                    android:inputType="textPassword"
+                    android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                    android:textColorHint="@color/titleBarColor"
+                    android:textSize="26.0sp"
+                    android:textStyle="bold" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15.0dip"
+                android:background="@drawable/button_radius"
+                android:onClick="regest"
+                android:text="@string/regist"
+                android:textColor="@color/Background_brown"
+                android:textSize="40.0sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Café Pocket</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="gender">النوع</string>
+    <string name="iamge_of_your_profile">الصورة الشخصيه</string>
+    <string name="last_name">الاسم الاخير</string>
+    <string name="Login">دخول</string>
+    <string name="name">الاسم</string>
+    <string name="or" />
+    <string name="password">كلمة السر</string>
+    <string name="password_confirm">تأكيد كلمة السر</string>
+    <string name="regist">تسجيل</string>
+    <string name="registration">سجل الان</string>
+    <string name="valid_email">من فضلك ادخل بريد الكتروني صحيح</string>
+    <string name="valid_name">من فضلك اخل اسم صحيح بدون ان يحتوي علي ارقام او علامة مثل %$#@^&amp;!()*</string>
+    <string name="valid_password">من فضلك ادخل علي الاقل تسعه من الحروف والارقام ويجب ان يكون هناك علي الاقل حرف كبير و اخر صغير و رقم</string>
+    <string name="signed_out"> تسجيل الخروج</string>
+    <string-array name="planets_array">
+        <item>الجنس</item>
+        <item>ذكر</item>
+        <item>انثي</item>
+    </string-array>
+    <string name="signFacebookButton">سجل الأن بـ الفيس بوك</string>
+    <string name="signGoogleButton">سجل الأن بـ جوجول</string>
+    <string name="signUp">سجل الأن</string>
+    <string name="signed_in_fmt"></string>
+    <string name="save">حفظ</string>
+    <string name="change">تريد التغيير ؟</string>
+</resources>

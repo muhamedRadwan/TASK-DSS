@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "221257462464",
+    "firebase_url": "https://cafe-pocket.firebaseio.com",
+    "project_id": "cafe-pocket",
+    "storage_bucket": "cafe-pocket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221257462464:android:e58e3ddd805c0dc7",
+        "android_client_info": {
+          "package_name": "com.friendsteam_cafehak.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221257462464-2curpphfo7ptcqifr0vqsn448umi2ir6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.friendsteam_cafehak.app",
+            "certificate_hash": "3D5EE3FA892492F1F81134B487E10A31040878A7"
+          }
+        },
+        {
+          "client_id": "221257462464-fur6q7mgobnd9a67na5mq99aev181ep6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlO_4hkMyEfAQJCUSTMJwPlIxXF2xjhE0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221257462464-fur6q7mgobnd9a67na5mq99aev181ep6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

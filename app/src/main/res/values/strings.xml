@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">DSS Task</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="gender">Gender</string>
+    <string name="iamge_of_your_profile">iamge of your profile</string>
+    <string name="last_name">Last Name</string>
+    <string name="Login">Login</string>
+    <string name="name"><b>Name</b></string>
+    <string name="or">OR</string>
+    <string name="password"><b>Password</b></string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="regist">Regist</string>
+    <string name="signUp">SignUP</string>
+    <string name="valid_email">Please eneter a valid email</string>
+    <string name="valid_name">Please eneter a valid name should not have any digit</string>
+    <string name="valid_password">Please enter at least 9 chracter nad should have upper and lower Alpha bit and numbers</string>
+    <string name="auth_google_play_services_client_facebook_display_name" translatable="false">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name" translatable="false">Google</string>
+    <string name="confirm_password">Please enter the same password</string>
+    <string name="facebook_app_id">531756263684812</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_out">Sign out</string>
+    <string name="error">check your connection</string>
+    <string name="success">Don</string>
+    <string name="com_facebook_loginview_log_in_button_long">Sign In With FaceBook</string>
+    <string name="com_facebook_loginview_log_out_button">Sign Out</string>
+    <string name="signGoogleButton">Sign In With GOOGLE</string>
+    <string-array name="planets_array">
+        <item>Select your Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_main2">Main Screen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="fromGallery">Choose from Gallery</string>
+    <string name="CaptureFormCam">Capture From Cam</string>
+    <string name="ChooseImage">Choose</string>
+    <string name="save">Save</string>
+    <string name="change">change it ?</string>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/titleBarColor</item>
+        <item name="colorPrimaryDark">@color/titleBarColor</item>
+        <item name="colorAccent">@color/titleBarColor</item>
+    </style>
+
+    <style name="FacebookLoginButton">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:background">@color/titleBarColor</item>
+        <item name="android:textColor">@color/Background_brown</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" cparent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextLabel" parent="Widget.Design.TextInputLayout">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/titleBarColor</item>
+        <item name="android:textSize">26sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/titleBarColor</item>
+        <item name="colorControlNormal">@color/titleBarColor</item>
+        <item name="colorControlActivated">@color/titleBarColor</item>
+        <item name="colorControlHighlight">@color/titleBarColor</item>
+
+    </style>
+
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="CustomTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/titleBarColor</item>
+    </style>
+
+    <style name="custom_textColor_style" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+</resources>
